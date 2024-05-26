@@ -56,7 +56,7 @@ function alterarContexto(contexto) {
   });
 
   html.setAttribute("data-contexto", contexto);
-  banner.setAttribute("src", `/Imagens/${contexto}.png`);
+  banner.setAttribute("src", `./Imagens/${contexto}.png`);
   switch (contexto) {
     case "foco":
       titulo.innerHTML = ` Otimize sua produtividade,<br>
